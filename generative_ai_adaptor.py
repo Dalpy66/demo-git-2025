@@ -73,7 +73,7 @@ class OpenAIClient(GenerativeAIClient):
 class GoogleGenAIClient(GenerativeAIClient):
   model: str='gemini-2.5-flash'
   temperature: float=0.7
-  max_tokens: int=200
+  max_tokens: int=500
   retries: int=3
   backoff: float=0.8
 
